@@ -1,0 +1,84 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --Fonte: "Roboto", "sans-serif";
+    --corbg: #0f0e0e;
+    --corbuttons: rgb(117, 91, 19);
+    --corHover: rgb(228, 224, 7);
+}
+
+body {
+    background-image: url(blackblack.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--corbg);
+    width: 390px;
+    border-radius: 46px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 2.0rem;
+    color: rgb(199, 154, 32);
+    align-content: center;
+    text-align: center;
+}
+
+p {
+    margin: 10px 0px 20px 0px;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: var(--Fonte);
+}
+
+a {
+    background: rgb(0, 0, 0);
+    color: #ffffff;
+    text-align: right;
+    font-size: 0.8rem;
+    margin: 0.8px;
+    border-radius: 30px;
+    width: 90%;
+    padding: 10px;
+    transform-style: preserve-3d;
+}
+
+.whatsapp-icon,
+.instagram-icon,
+.youtube-icon,
+.curriculo-icon,
+.musculacao-icon {
+    width: 25px; /* Ajuste o tamanho dos ícones conforme necessário */
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+a:hover {
+    background: rgb(180, 18, 185);
+}
